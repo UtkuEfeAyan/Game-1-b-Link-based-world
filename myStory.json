@@ -1,0 +1,123 @@
+{
+    "Title": "Z Reckoning: First Wave",
+    "Credits": "Created by Adam Smith (amsmith@ucsc.edu) and modified by Utku Efe Ayan (uayan@ucsc.edu).",
+    "InitialLocation": "Kresge",
+    "Locations": {
+        "Kresge": {
+            "Body": "This is Kresge College, the once serene campus now lies in disarray. Buildings with shattered windows loom ominously, their walls bearing signs of desperate attempts to barricade against the undead. You stand at the entrance, heart pounding, surrounded by the eerie silence of the apocalypse.",
+            "Choices": [
+                {
+                    "Text": "South",
+                    "Target": "Porter",
+                    "Locked": false
+                }
+            ]
+        },
+        "Porter": {
+            "Body": "This is Porter College, once a hub of student activity, now a haunting reminder of the chaos that has engulfed the world. The grounds are littered with debris, and shadows dance among the dilapidated buildings. You can hear the distant sounds of groaning and shuffling, signaling the presence of the undead.",
+            "Choices": [
+                {
+                    "Text": "North",
+                    "Target": "Kresge",
+                    "Locked": false
+                },
+                {
+                    "Text": "South",
+                    "Target": "Cafeteria",
+                    "Locked": false
+                },
+                {
+                    "Text": "East",
+                    "Target": "Rachel Carson",
+                    "Locked": false
+                }
+            ]
+        },
+        "Cafeteria": {
+            "Body": "Welcome to the Cafeteria, where students once gathered to share meals and stories. Now, the tables sit empty, the chairs overturned. The smell of stale food lingers in the air, a reminder of happier times. Outside, the undead shuffle mindlessly, their presence a stark contrast to the memories of laughter and chatter that once filled this space.",
+            "Choices": [
+                {
+                    "Text": "North",
+                    "Target": "Porter",
+                    "Locked": false
+                }
+            ]
+        },
+        "Rachel Carson": {
+            "Body": "Rachel Carson College, its once immaculate structures now lie in ruins. The campus is eerily quiet, save for the occasional moans of the undead. You can see them milling about, their vacant eyes searching for their next meal amidst the rubble and destruction.",
+            "Choices": [
+                {
+                    "Text": "North",
+                    "Target": "Cafeteria",
+                    "Locked": false
+                },
+                {
+                    "Text": "South",
+                    "Target": "Library",
+                    "Locked": false
+                },
+                {
+                    "Text": "West",
+                    "Target": "Book Store",
+                    "Locked": false
+                },
+                {
+                    "Text": "East",
+                    "Target": "Cafeteria",
+                    "Locked": false
+                }
+            ]
+        },
+        "Library": {
+            "Body": "Welcome to the Library, a sanctuary of knowledge and learning now marred by the chaos of the apocalypse. The shelves, once lined with books of all kinds, now stand barren and broken, their contents scattered across the floor. The musty smell of old paper fills the air, mingling with the stench of decay. Outside, the undead wander aimlessly, oblivious to the treasures of wisdom left behind.",
+            "LockedKey": "Silver Key",
+            "Choices": [
+                {
+                    "Text": "North",
+                    "Target": "Porter",
+                    "Locked": false
+                },
+                {
+                    "Text": "South",
+                    "Target": "Rachel Carson",
+                    "Locked": false
+                }
+            ]
+        },
+        "Book Store": {
+            "Body": "Welcome to the Book Store, a bustling shopping center that once housed a variety of stores and eateries. Now, its corridors echo with emptiness, the once vibrant shops now shuttered and dark. Broken storefronts reveal glimpses of a chaotic scene within, with overturned shelves and scattered merchandise. The air is heavy with the smell of decay and abandonment. Outside, the undead roam the deserted parking lot, their presence a haunting reminder of the world that once was.",
+            "Choices": [
+                {
+                    "Text": "East",
+                    "Target": "Rachel Carson",
+                    "Locked": false
+                },
+                {
+                    "Text": "South",
+                    "Target": "Oakes",
+                    "Locked": false
+                },
+                {
+                    "Text": "North",
+                    "Target": "Porter",
+                    "Locked": false
+                }
+            ]
+        },
+        "Oakes": {
+            "Body": "Oakes College, its buildings adorned with signs of struggle and survival. Every corner bears witness to the grim reality of the apocalypse, with barricades hastily erected and remnants of past battles strewn about. The growls of the undead echo through the deserted halls, serving as a constant reminder of the dangers that lurk.",
+            "Locked": true,
+            "SpecialMechanism": true,
+            "Choices": [
+                {
+                    "Text": "South",
+                    "Target": "Beyond",
+                    "Locked": true
+                }
+            ]
+        },
+        "Beyond": {
+            "Body": "You've ventured beyond the safety of the college campuses, into the unknown expanse of the outside world. Every step you take brings you closer to the uncertain future that awaits in the post-apocalyptic landscape."
+        }
+    }
+}
