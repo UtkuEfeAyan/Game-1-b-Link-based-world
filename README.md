@@ -5,3 +5,5 @@
  'space' to dash 
 
 objective is to collect all the coins
+
+school prototype not optimized
